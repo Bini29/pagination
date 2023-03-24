@@ -1,0 +1,37 @@
+.btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: 0.5s;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #0d6efd;
+}
+.large {
+  padding: 15px 20px;
+  font-size: 18px;
+}
+.default {
+  background-color: #0d6efd;
+}
+.default:hover {
+  background-color: #0b5ed7;
+}
+
+.success {
+  background-color: #18aa50;
+}
+.success:hover {
+  background-color: #25b65c;
+}
+
+.danger {
+  background-color: #dc3545;
+}
+.danger:hover {
+  background-color: #eb4c5c;
+}
+.disabled {
+  pointer-events: none;
+  background-color: #ccc;
+}

@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.nav {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+.navlink {
+  padding: 3px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.active {
+  color: white;
+  background-color: #0d6efd;
+}
